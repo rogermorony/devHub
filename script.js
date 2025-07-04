@@ -14,3 +14,18 @@ function toggleMode() {
     img.setAttribute("src", "./assets/avatar.png")
   }
 }
+
+// Função para abrir imagem no lightbox
+document.querySelectorAll(".cert-grid img").forEach((img) => {
+  img.addEventListener("click", () => {
+    const lightbox = document.getElementById("lightbox")
+    const lightboxImg = lightbox.querySelector("img")
+    lightboxImg.src = img.src
+    lightbox.style.display = "flex"
+  })
+})
+
+function closeLightbox() {
+  const lightbox = document.getElementById("lightbox")
+  lightbox.style.display = "none"
+}

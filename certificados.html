@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rogermartins.dev</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="certificados">
+    <div id="container">
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <div class="top-bar">
+        <a href="index.html" class="back-button">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </a>
+        <h3>Certificados</h3>
+      </div>
+
+      <p>
+        Nesta seção, você encontra os principais certificados que refletem minha
+        jornada de aprendizado e aprimoramento na área de tecnologia.
+        <br /><br />
+        Os cursos listados aqui foram escolhidos com foco em desenvolvimento
+        web, design e tecnologias aplicadas à prática, reforçando minha formação
+        no IFSul e meu compromisso contínuo com a evolução profissional.
+      </p>
+    </div>
+
+    <div class="cert-grid">
+      <img src="./assets/cert1.png" alt="Certificado 1" />
+      <img src="./assets/cert2.png" alt="Certificado 2" />
+      <img src="./assets/cert3.png" alt="Certificado 3" />
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
+    <div id="lightbox" onclick="closeLightbox()">
+      <img src="" alt="Imagem ampliada" />
+    </div>
+  </body>
+</html>
