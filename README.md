@@ -21,6 +21,9 @@ Este é meu hub pessoal para compartilhar projetos, códigos, referências e mat
   <img alt="projeto feito pela rocketseat para criar seu próprio devHub" src=".github/preview.png" width="100%">
 </p>
 
+
+https://rogermorony.github.io/devHub/
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
